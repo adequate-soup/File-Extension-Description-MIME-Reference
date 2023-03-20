@@ -1,7 +1,7 @@
 # MIME-Description-Reference-
 An incomplete reference of file extensions to their correlated MIME content types and descriptions.
 
-Data in this file is in JSON format. Each entry looks something like this:
+Data in this file is in JSON format. Each entry in mime.final.json looks something like this:
 
 ".ext" : { "descriptions" : ["A description of file content", "A redundant description"], "mimes" : ["file/content", "file/alternate"] }
 
