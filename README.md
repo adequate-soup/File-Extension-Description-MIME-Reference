@@ -3,7 +3,7 @@ An incomplete reference of file extensions to their correlated MIME content type
 
 Data in this file is in JSON format. Each entry in mime.final.json looks something like this:
 
-".ext" : { "descriptions" : ["A description of file content", "A redundant description"], "mimes" : ["file/content", "file/alternate"] }
+".ext" : { "description" : "A description of file content", "mimes" : ["file/content", "file/alternate"] }
 
 I needed a good reference associating file extensions types to their verbal descriptions and MIME types, but to my dismay, I could find no such file on the surface web. So, I figured out how to dump system data from MacOS and wrote a small script to organize the data into a JSON file.
 
